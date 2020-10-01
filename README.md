@@ -1,9 +1,17 @@
 # Tyrannogotchi App Backend
 
+Tyrannogotchi is a web browser application inspired by Tamagotchi. A user can create an account, and take care of their virtual dinosaur.
+
 ## How To Run: 
 
-- Create a free Okta Developer account
+In order to run this application, you need to create a free [Okta Developer account](https://developer.okta.com/).
+
+Once you have created an account, follow these steps;
+
 - Log in to your Okta account and navigate to Applications > Add Application
+
+
+
 - Click Web and then Next
 - Name your app and specify http://localhost:8080/login/oauth2/code/okta as a Login redirect URI
 - Click Done, then click Edit to edit General Settings
